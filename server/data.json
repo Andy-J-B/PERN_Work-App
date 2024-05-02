@@ -1,0 +1,534 @@
+{
+  "week #1": {
+    "date": "2022-07-03 22:31:04",
+    "total_time_shift": 8.116666666666667,
+    "total_break_time": 0.4666666666666667,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.65,
+    "money_made": "$119.72",
+    "Details": "It went fairly slowly since it was raining quite a bit today. I bought one minions toy from a happy meal and stole 2 other minions toys. I will be trained in the front tomorrow."
+  },
+  "week #2": {
+    "date": "2022-07-04 22:51:31",
+    "total_time_shift": 8.083333333333334,
+    "total_break_time": 0.45,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.633333333333333,
+    "money_made": "$119.46",
+    "Details": "Today was the first front training shift. Nav was my crew trainer, she was great. It wasn't sunny nor raining today so pretty chill. Tomorrow Ihave another training shift half 4 hours and 4 hours in the back."
+  },
+  "week #3": {
+    "date": "2022-07-05 21:39:13",
+    "total_time_shift": 8.116666666666667,
+    "total_break_time": 0.43333333333333335,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.683333333333334,
+    "money_made": "$120.24",
+    "Details": "It was great but busy. Half of it was in the back and then the prior half was training in the front till and front counter."
+  },
+  "week #4": {
+    "date": "2022-07-07 16:20:22",
+    "total_time_shift": 5.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 5.116666666666666,
+    "money_made": "$80.08",
+    "Details": "It was very busy with only three to two people working in the back sometimes. I did not want a break and I forgot to punch out at the end of my shift."
+  },
+  "week #5": {
+    "date": "2022-07-08 17:12:24",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "It was very busy and it was my first shift up front after my training. I wasn't asked if I needed a break and I forgot to punch out at the end."
+  },
+  "week #6": {
+    "date": "2022-07-10 23:32:16",
+    "total_time_shift": 8.083333333333334,
+    "total_break_time": 0.4,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.683333333333334,
+    "money_made": "$120.24",
+    "Details": "By far the worst work day I've ever experienced. Stole two more minions toys. I had such a hard time today. It wasn't even that busy but the people made me so annoyed. I reconsidered quitting today."
+  },
+  "week #7": {
+    "date": "2022-07-11 18:38:35",
+    "total_time_shift": 7.1,
+    "total_break_time": 0.43333333333333335,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 6.666666666666666,
+    "money_made": "$104.33",
+    "Details": "It was busy, Sam asked if I could start earlier tomorrow I declined. Ranim took my shift on Thursday 4 pm - 10 pm WN. My work and break hours are not precise since my phone updated."
+  },
+  "week #8": {
+    "date": "2022-07-26 11:52:02",
+    "total_time_shift": 5.05,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 5.05,
+    "money_made": "$79.03",
+    "Details": "Data lost from week #8 to #11"
+  },
+  "week #9": {
+    "date": "2022-07-26 11:53:10",
+    "total_time_shift": 5.583333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 5.583333333333333,
+    "money_made": "$87.38",
+    "Details": "Data Lost"
+  },
+  "week #10": {
+    "date": "2022-07-26 11:53:55",
+    "total_time_shift": 5.7,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 5.7,
+    "money_made": "$89.20",
+    "Details": "Data Lost"
+  },
+  "week #11": {
+    "date": "2022-07-26 11:54:45",
+    "total_time_shift": 5.15,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 5.15,
+    "money_made": "$80.60",
+    "Details": "Data Lost"
+  },
+
+  "week #12": {
+    "date": "2022-07-28 22:15:54",
+    "total_time_shift": 7.216666666666667,
+    "total_break_time": 0.45,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 6.766666666666667,
+    "money_made": "$105.90",
+    "Details": "It wasn't bad. I was in the front and the front had sufficient people. Although the weather was really hot and the air conditioner wasn't working. We were dieing of heat out there. I was working with Isaiah up front today although he was supposed to be trained in the back, Noah let him get trained in the front as well."
+  },
+  "week #13": {
+    "date": "2022-07-29 22:19:38",
+    "total_time_shift": 6.183333333333334,
+    "total_break_time": 0.38333333333333336,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 5.8,
+    "money_made": "$90.77",
+    "Details": "I was supposed to be in the back today but Nav the manager switched me to the front. It was busy the whole time except for the final hour."
+  },
+  "week #14": {
+    "date": "2022-07-31 22:44:47",
+    "total_time_shift": 7.25,
+    "total_break_time": 0.4666666666666667,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 6.783333333333333,
+    "money_made": "$106.16",
+    "Details": "It was alright. It was pretty busy and I worked in the back today. I was asked repeatedly by Noah to work 2 pm - 10 pm tomorrow instead of the 10 am - 2 pm that I already am scheduled to tomorrow. I suggested that I might work longer than the 10 am - 2pm that I have tommorrow, althoughI do not intend to stay any longer. I will see tomorrow."
+  },
+  "week #15": {
+    "date": "2022-08-01 18:32:22",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "It wasn't great. I was so tired and Noah kept on urging me to stay longer and I refused until the very end. I was supposed to be in the front today but the didn't let me up front but made me go in the back for the whole shift."
+  },
+  "week #16": {
+    "date": "2022-08-02 16:47:25",
+    "total_time_shift": 5.083333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 5.083333333333333,
+    "money_made": "$79.55",
+    "Details": "It wasn't that bad. It's just that at the end today I started to make my food to take home and of course I was going to pay for it. But suddenly Lauren told me I couldn't make it and had to let Brando and the others in the back to make my order. So I just didn't make anything and left."
+  },
+  "week #17": {
+    "date": "2022-08-04 21:23:06",
+    "total_time_shift": 6.1,
+    "total_break_time": 0.3,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 5.8,
+    "money_made": "$90.77",
+    "Details": "Physically speaking, it was great and wasn't overbearing. It was pretty slow today. The only bad thing is how Nav, the manager kept saying that I can't have a break because I couldn't pick up her calls in the morning when I just couldn't wake up and was tired."
+  },
+  "week #18": {
+    "date": "2022-08-05 17:54:07",
+    "total_time_shift": 6.133333333333334,
+    "total_break_time": 0.4666666666666667,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 5.666666666666667,
+    "money_made": "$88.68",
+    "Details": "Bad, Bad, Horrible. Busy, low labour, no people anywhere, very mentally straining even though I was in the back. Noah said I couldn't have a break, Nav came in and didn't let me get off right away. Made me want to rethink quitting."
+  },
+  "week #19": {
+    "date": "2022-08-07 23:24:28",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "It wasn't that bad. Only thing bad was that Nav kind of forced me to not have a break, she was like \"And you don't get break because I already have a lot of people who need break, you are only 4 hour too right?\" And then I had to do it. Today I did prep and front so it wasn't that bad. Although this shift was supposed to be in the back too."
+  },
+  "week #20": {
+    "date": "2022-08-09 17:55:18",
+    "total_time_shift": 6.0,
+    "total_break_time": 0.5,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 5.5,
+    "money_made": "$86.08",
+    "Details": "Today was pretty hot and little people in the back, I started off in the front and again Nav kept on saying how I couldn't have a break throughout the whole time. Itwas really busy too. Also I lost the data upon the times I started/ended the shift and the break."
+  },
+  "week #21": {
+    "date": "2022-08-11 23:53:11",
+    "total_time_shift": 6.15,
+    "total_break_time": 0.36666666666666664,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 5.783333333333334,
+    "money_made": "$90.51",
+    "Details": "It wasn't great. At first, before the shift Noah called me to ask if I didn't want to come today and that there was a lot of people. In the shift it was totally the opposite because there were so little people. Also I had to take my break at 6:22 which was way too early. "
+  },
+  "week #22": {
+    "date": "2022-08-12 11:25:17",
+    "total_time_shift": 7.133333333333334,
+    "total_break_time": 0.2833333333333333,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 6.8500000000000005,
+    "money_made": "$107.20",
+    "Details": "It was one of the worst days ever."
+  },
+  "week #23": {
+    "date": "2022-08-15 11:27:11",
+    "total_time_shift": 4.0,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "No",
+    "total_time_worked": 4.0,
+    "money_made": "$62.60",
+    "Details": "It wasn't all that bad, just did the prep for 4 hours."
+  },
+  "week #24": {
+    "date": "2022-08-21 22:31:13",
+    "total_time_shift": 4.15,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "Yes",
+    "total_time_worked": 4.15,
+    "money_made": "$64.95",
+    "Details": "Not bad, it wasn't that busy but the only thing that was bad was that when Nav asked if I needed a break, she was saying it as if making me not have one for a four hour shift."
+  },
+  "week #25": {
+    "date": "2022-08-25 11:09:12",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "Not bad."
+  },
+  "week #26": {
+    "date": "2022-08-26 23:28:43",
+    "total_time_shift": 5.133333333333334,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 5.133333333333334,
+    "money_made": "$80.34",
+    "Details": "Really bad, I was supposed to work in the front but was sent to the back the whole day and had to work endlessly, they told me that I'd get a break later, and they said this at 4:09. When I end at 5:00"
+  },
+  "week #27": {
+    "date": "2022-08-28 18:47:51",
+    "total_time_shift": 7.1,
+    "total_break_time": 0.38333333333333336,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 6.716666666666666,
+    "money_made": "$105.12",
+    "Details": "It wasn't that bad, just tiring."
+  },
+  "week #28": {
+    "date": "2022-08-30 22:53:17",
+    "total_time_shift": 7.133333333333334,
+    "total_break_time": 0.3,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 6.833333333333334,
+    "money_made": "$106.94",
+    "Details": "By far the worst day of my life, first off all owners were there and today I was supposed to work in the front but they put me in the back again like always making me mad, then it's busy the whole time and then Nav keeps gaslighting me about not taking a break. I hope this doesn't ever happen again."
+  },
+  "week #29": {
+    "date": "2022-09-1 11:46:30",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "Worst day possible. Head department of Mcdonalds ame so they made me wear aprons which was burning hot and wouldn't let me take it off, they wouldn't let me drink water when I wanted to. Then Nav said I can't have a break and said she'd give me food since it was her promotion. "
+  },
+  "week #30": {
+    "date": "2022-09-11 23:03:06",
+    "total_time_shift": 4.216666666666667,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.216666666666667,
+    "money_made": "$65.99",
+    "Details": "Not bad, but I worked in the back again when I was scheduled to be working up front on the window. WN."
+  },
+  "week #31": {
+    "date": "2022-09-18 17:17:59",
+    "total_time_shift": 4.1,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.1,
+    "money_made": "$64.16",
+    "Details": "Not too great. The shift had little to no people at the back near the end of the shift and Nav the manager kept telling me to stay longer and to work tomorrow but I said that I didn't want to and then she gave me the middle finger. Then at the end of the shift she did give everyone a free meal but it sounded like it wasn't to her liking and told me I couldn't get it. But later she gave me it."
+  },
+  "week #32": {
+    "date": "2022-10-02 17:46:11",
+    "total_time_shift": 4.083333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.083333333333333,
+    "money_made": "$63.90",
+    "Details": "Great."
+  },
+  "week #33": {
+    "date": "2022-10-09 23:04:55",
+    "total_time_shift": 4.233333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.233333333333333,
+    "money_made": "$66.25",
+    "Details": "It wasn't bad."
+  },
+  "week #34": {
+    "date": "2022-10-17 11:10:57",
+    "total_time_shift": 3.1,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 3.1,
+    "money_made": "$48.52",
+    "Details": "Great. Dallas let me get off early at 10pm instead of closing at 11pm."
+  },
+  "week #35": {
+    "date": "2022-11-01 21:22:37",
+    "total_time_shift": 4.233333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.233333333333333,
+    "money_made": "$66.25",
+    "Details": "Mid"
+  },
+  "week #36": {
+    "date": "2022-11-06 00:17:55",
+    "total_time_shift": 4.2,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.2,
+    "money_made": "$65.73",
+    "Details": "Alexis told me to go on break after I finished backdoor at 9:15 which meant t tjhat I couldn't go on break. Dallas's last work day with me."
+  },
+  "week #37": {
+    "date": "2022-11-13 22:35:13",
+    "total_time_shift": 4.183333333333334,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.183333333333334,
+    "money_made": "$65.47",
+    "Details": "Good."
+  },
+  "week #38": {
+    "date": "2022-11-20 22:45:04",
+    "total_time_shift": 4.15,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.15,
+    "money_made": "$64.95",
+    "Details": "Mid. "
+  },
+  "week #39": {
+    "date": "2022-12-04 17:31:07",
+    "total_time_shift": 4.1,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.1,
+    "money_made": "$64.16",
+    "Details": "Mid-Low"
+  },
+  "week #40": {
+    "date": "2022-12-10 23:04:20",
+    "total_time_shift": 4.15,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.15,
+    "money_made": "$64.95",
+    "Details": "Very busy."
+  },
+  "week #41": {
+    "date": "2022-12-20 13:16:54",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "mid"
+  },
+  "week #42": {
+    "date": "2022-12-22 18:29:55",
+    "total_time_shift": 4.133333333333334,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.133333333333334,
+    "money_made": "$64.69",
+    "Details": "mid"
+  },
+  "week #43": {
+    "date": "2022-12-23 18:31:54",
+    "total_time_shift": 8.083333333333334,
+    "total_break_time": 0.45,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.633333333333334,
+    "money_made": "$119.46",
+    "Details": "bad"
+  },
+  "week #44": {
+    "date": "2022-12-24 17:01:00",
+    "total_time_shift": 4.216666666666667,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.216666666666667,
+    "money_made": "$65.99",
+    "Details": "Shittiest day ever"
+  },
+  "week #45": {
+    "date": "2022-12-29 23:03:17",
+    "total_time_shift": 8.116666666666667,
+    "total_break_time": 0.45,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.666666666666667,
+    "money_made": "$119.98",
+    "Details": "Mid"
+  },
+  "week #46": {
+    "date": "2022-12-30 20:42:36",
+    "total_time_shift": 8.116666666666667,
+    "total_break_time": 0.48333333333333334,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 7.633333333333334,
+    "money_made": "$119.46",
+    "Details": "Bad, all over the place and hardeep was really mean."
+  },
+  "week #47": {
+    "date": "2022-12-31 19:58:49",
+    "total_time_shift": 4.083333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.083333333333333,
+    "money_made": "$63.90",
+    "Details": "Mid"
+  },
+  "week #48": {
+    "date": "2023-01-07 23:05:54",
+    "total_time_shift": 4.1,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.1,
+    "money_made": "$64.16",
+    "Details": "Very hard, non-stop work and I was on the table alone for around 2 hours."
+  },
+  "week #49": {
+    "date": "2023-01-15 22:22:41",
+    "total_time_shift": 4.133333333333334,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.133333333333334,
+    "money_made": "$64.69",
+    "Details": "mid"
+  },
+  "week #50": {
+    "date": "2023-01-21 22:22:19",
+    "total_time_shift": 4.083333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "yes",
+    "total_time_worked": 4.083333333333333,
+    "money_made": "$63.90",
+    "Details": "Mid."
+  },
+  "week #51": {
+    "date": "2023-02-05 16:54:19",
+    "total_time_shift": 4.15,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.15,
+    "money_made": "$64.95",
+    "Details": "Mid"
+  },
+  "week #52": {
+    "date": "2023-02-12 16:58:25",
+    "total_time_shift": 4.1,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.1,
+    "money_made": "$64.16",
+    "Details": "Mid."
+  },
+  "week #53": {
+    "date": "2023-02-19 00:07:59",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "Mid-Low"
+  },
+  "week #54": {
+    "date": "2023-03-05 20:18:18",
+    "total_time_shift": 4.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.116666666666666,
+    "money_made": "$64.43",
+    "Details": "It wasn't that bad."
+  },
+  "week #55": {
+    "date": "2023-03-08 22:19:49",
+    "total_time_shift": 4.083333333333333,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.083333333333333,
+    "money_made": "$63.90",
+    "Details": "Very busy"
+  },
+  "week #56": {
+    "date": "2023-03-15 21:54:38",
+    "total_time_shift": 4.133333333333334,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.133333333333334,
+    "money_made": "$64.69",
+    "Details": "Mid-Low"
+  },
+  "week #57": {
+    "date": "2023-03-18 22:55:25",
+    "total_time_shift": 4.05,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.05,
+    "money_made": "$63.38",
+    "Details": "It was really busy"
+  },
+  "week #58": {
+    "date": "2023-04-02 20:46:06",
+    "total_time_shift": 5.116666666666666,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 5.116666666666666,
+    "money_made": "$80.08",
+    "Details": "My shift was 10 am - 2 pm but Sam asked if I could work from 10 am - 3 pm and I said yes. It was busy and I got a headache but they gave me a McFlurry so it's good."
+  },
+  "week #59": {
+    "date": "2023-04-09 23:20:11",
+    "total_time_shift": 4.133333333333334,
+    "total_break_time": 0.0,
+    "Was asked for a break?": "no",
+    "total_time_worked": 4.133333333333334,
+    "money_made": "$64.69",
+    "Details": "Mid-Low"
+  }
+}
