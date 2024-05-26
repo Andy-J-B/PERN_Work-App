@@ -11,6 +11,57 @@ const List = () => {
     return newDate;
   };
 
+  const paidChecker = (shift) => {
+    try {
+      if (shift.paid == true) {
+        return (
+          <>
+            <button className="btn" onClick={() => updatePaid(shift)}>
+              Paid
+            </button>
+          </>
+        );
+      } else {
+        return (
+          <>
+            <button className="btn" onClick={() => updatePaid(shift)}>
+              Not Paid
+            </button>
+          </>
+        );
+      }
+    } catch (err) {
+      console.error(err.message);
+    }
+  };
+
+  const updatePaid = async (shift) => {
+    const response = await fetch(
+      `http://localhost:3333/shifts/${shift.shift_id}`
+    );
+    const jsonData = await response.json();
+    jsonData["today_date"] = jsonData.tdy_date;
+    delete jsonData["tdy_date"];
+    if (jsonData.paid == true) {
+      jsonData.paid = false;
+    } else {
+      jsonData.paid = true;
+    }
+    try {
+      const response = await fetch(
+        `http://localhost:3333/shifts/${shift.shift_id}`,
+        {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(jsonData),
+        }
+      );
+      window.location = "/";
+    } catch (err) {
+      console.error(err.message);
+    }
+  };
+
   const deleteShift = async (id) => {
     try {
       const deleteShift = await fetch(`http://localhost:3333/shifts/${id}`, {
@@ -46,10 +97,11 @@ const List = () => {
       <table className="table mt-5 text-center">
         <thead>
           <tr>
+            <th>Paid?</th>
             <th>Date of Input</th>
             <th>Hourly Wage</th>
-            <th>Total Worked Hours</th>
-            <th>Net Pay</th>
+            <th>Worked Hours</th>
+            <th>Pay</th>
             <th>Details</th>
             <th>Edit</th>
             <th>Delete</th>
@@ -58,6 +110,7 @@ const List = () => {
         <tbody>
           {shifts.map((shift) => (
             <tr key={shift.shift_id}>
+              <td>{paidChecker(shift)}</td>
               <td>{formatDate(shift.tdy_date)}</td>
               <td>{shift.hourly_wage}</td>
               <td>{shift.total_worked_hours}</td>

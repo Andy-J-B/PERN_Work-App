@@ -69,8 +69,10 @@ app.put("/shifts/:id", async (req, res) => {
     const { id } = req.params;
     const data = req.body;
 
+    console.log(data);
+
     const updateData = await pool.query(
-      "UPDATE shifts SET worked_hours = $2, worked_minutes = $3, break_hours = $4, break_minutes = $5, total_worked_hours = $6, net_pay = $7, details = $8, hourly_wage = $9, tdy_date = $10 WHERE  shift_id = $1",
+      "UPDATE shifts SET worked_hours = $2, worked_minutes = $3, break_hours = $4, break_minutes = $5, total_worked_hours = $6, net_pay = $7, details = $8, hourly_wage = $9, tdy_date = $10, paid = $11 WHERE  shift_id = $1",
       [
         id,
         data["worked_hours"],
@@ -82,6 +84,7 @@ app.put("/shifts/:id", async (req, res) => {
         data["details"],
         data["hourly_wage"],
         data["today_date"],
+        data["paid"],
       ]
     );
 
