@@ -40,6 +40,9 @@ const Input = () => {
       body["allValues"]["net_pay"] = parseFloat(net_pay);
       body["allValues"]["details"] = detailedStr["details"]["details"];
       console.log(body);
+      if (body["allValues"]["hourly_wage"] == "") {
+        body["allValues"]["hourly_wage"] = 17.4;
+      }
       const response = await fetch("http://localhost:3333/shifts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

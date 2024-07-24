@@ -5,25 +5,6 @@ const Total = () => {
 
   // delete shifts function
 
-  const formatDate = (date) => {
-    const newDate = date.substr(0, date.indexOf("T"));
-    return newDate;
-  };
-
-  const deleteShift = async (id) => {
-    try {
-      const deleteShift = await fetch(`http://localhost:3333/shifts/${id}`, {
-        method: "DELETE",
-      });
-
-      // Make it refresh page
-
-      setShifts(shifts.filter((shift) => shift.shift_id !== id)); // filters shifts
-    } catch (err) {
-      console.error(err.message);
-    }
-  };
-
   const getShifts = async () => {
     try {
       const response = await fetch("http://localhost:3333/shifts");
@@ -33,6 +14,16 @@ const Total = () => {
     } catch (err) {
       console.log(err.message);
     }
+  };
+
+  const recievablePay = (shifts) => {
+    var totalRecievable = 0;
+    for (var i = 0; i < shifts.length; i++) {
+      if (!shifts[i].paid) {
+        totalRecievable += parseFloat(shifts[i].net_pay);
+      }
+    }
+    return totalRecievable;
   };
 
   useEffect(() => {
@@ -47,6 +38,7 @@ const Total = () => {
           <tr>
             <th>Total Worked Hours</th>
             <th>Net Pay</th>
+            <th>Unpaid Pay</th>
           </tr>
         </thead>
         {
@@ -64,6 +56,7 @@ const Total = () => {
                 0
               )}
             </td>
+            <td>{recievablePay(shifts)}</td>
           </tr>
         }
       </table>

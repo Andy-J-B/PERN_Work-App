@@ -15,8 +15,9 @@ app.post("/shifts", async (req, res) => {
   try {
     const data = req.body;
     const newData = await pool.query(
-      "INSERT INTO shifts (worked_hours, worked_minutes, break_hours, break_minutes, total_worked_hours, net_pay, details) VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *",
+      "INSERT INTO shifts (hourly_wage, worked_hours, worked_minutes, break_hours, break_minutes, total_worked_hours, net_pay, details) VALUES($1, $2, $3, $4, $5, $6, $7, $8) RETURNING *",
       [
+        data["hourly_wage"],
         data["worked_hours"],
         data["worked_minutes"],
         data["break_hours"],
@@ -68,8 +69,6 @@ app.put("/shifts/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const data = req.body;
-
-    console.log(data);
 
     const updateData = await pool.query(
       "UPDATE shifts SET worked_hours = $2, worked_minutes = $3, break_hours = $4, break_minutes = $5, total_worked_hours = $6, net_pay = $7, details = $8, hourly_wage = $9, tdy_date = $10, paid = $11 WHERE  shift_id = $1",
