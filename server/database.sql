@@ -2,7 +2,7 @@ CREATE DATABASE pern_work_app
 
 CREATE TABLE shifts (
     shift_id SERIAL PRIMARY KEY,
-    hourly_wage DECIMAL DEFAULT '16.75',
+    hourly_wage DECIMAL DEFAULT '17.4',
     worked_hours SMALLINT NOT NULL,
     worked_minutes SMALLINT NOT NULL,
     break_hours SMALLINT,

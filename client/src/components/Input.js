@@ -28,6 +28,19 @@ const Input = () => {
       const body = { allValues };
       const detailedStr = { details };
       console.log(detailedStr["details"]["details"]);
+      if (body["allValues"]["break_hours"] == "") {
+        body["allValues"]["break_hours"] = 0;
+      }
+      if (body["allValues"]["break_minutes"] == "") {
+        body["allValues"]["break_minutes"] = 0;
+      }
+      if (body["allValues"]["hourly_wage"] == "") {
+        body["allValues"]["hourly_wage"] = 17.4;
+      }
+      if (body["allValues"]["worked_minutes"] == "") {
+        body["allValues"]["worked_minutes"] = 0;
+      }
+
       const total_worked_hours =
         body["allValues"]["worked_hours"] +
         body["allValues"]["worked_minutes"] / 60 -
@@ -40,9 +53,7 @@ const Input = () => {
       body["allValues"]["net_pay"] = parseFloat(net_pay);
       body["allValues"]["details"] = detailedStr["details"]["details"];
       console.log(body);
-      if (body["allValues"]["hourly_wage"] == "") {
-        body["allValues"]["hourly_wage"] = 17.4;
-      }
+
       const response = await fetch("http://localhost:3333/shifts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

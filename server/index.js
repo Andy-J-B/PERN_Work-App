@@ -14,6 +14,7 @@ app.use(express.json());
 app.post("/shifts", async (req, res) => {
   try {
     const data = req.body;
+
     const newData = await pool.query(
       "INSERT INTO shifts (hourly_wage, worked_hours, worked_minutes, break_hours, break_minutes, total_worked_hours, net_pay, details) VALUES($1, $2, $3, $4, $5, $6, $7, $8) RETURNING *",
       [
